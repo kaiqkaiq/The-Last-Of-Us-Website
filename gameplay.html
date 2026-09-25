@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gameplay | The Last Of Us</title>
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- CSS Geral-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/gameplay.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-sm" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand pressgothic" href="index.html" style="font-size: xx-large;">THE LAST OF US
+                    WEBSITE</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacao"
+                    aria-controls="navegacao" aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navegacao">
+                    <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#"
+                                data-bs-toggle="dropdown" aria-expanded="false">Personagens</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="index.html#personagens">Personagens</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="joel.html">Joel</a></li>
+                                <li><a class="dropdown-item" href="ellie.html">Ellie</a></li>
+                                <li><a class="dropdown-item" href="abby.html">Abby</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"> <a class="nav-link" href="jogos.html">Jogos</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="gameplay.html">Gameplay</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="processocriativo.html">Processo Criativo</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container pt-4 pb-2 mb-2">
+            <section class="my-2 py-2 px-4">
+                <h1 class="display-4 pressgothic text-center">GAMEPLAY</h1>
+
+                <div class="row row-cols-1 row row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="d-grid col">
+                        <button class="botaoinfos btn btn-secondary btn-lg" type="button" data-target="collapseAtirar">
+                            Atirar
+                        </button>
+                    </div>
+
+                    <div class="d-grid col">
+                        <button class="botaoinfos btn btn-secondary btn-lg" type="button" data-target="collapseStealth">
+                            Stealth
+                        </button>
+                    </div>
+
+                    <div class="d-grid col">
+                        <button class="botaoinfos btn btn-secondary btn-lg" type="button" data-target="collapseOuvir">
+                            Ouvir
+                        </button>
+                    </div>
+
+                    <div class="d-grid col">
+                        <button class="botaoinfos btn btn-secondary btn-lg" type="button"
+                            data-target="collapseSuplementos">
+                            Suplementos
+                        </button>
+                    </div>
+
+                    <div class="d-grid col">
+                        <button class="botaoinfos btn btn-secondary btn-lg" type="button"
+                            data-target="collapseUpgrades">
+                            Upgrades de arma
+                        </button>
+                    </div>
+
+                    <div class="d-grid col">
+                        <button class="botaoinfos btn btn-secondary btn-lg" type="button" data-target="collapseCriacao">
+                            Criação
+                        </button>
+                    </div>
+                </div>
+
+
+
+                <div class="collapse" id="collapseAtirar">
+                    <div class="infos my-4 py-4 px-5 rounded-4">
+                        <h2 class="display-6 pressgothic text-center">ATIRAR</h2>
+                        <div class="col-lg-6 mx-auto mb-4">
+                            <img class="shadow-lg rounded-4" src="img/guia/atirar.webp" width="100%">
+                        </div>
+                        <p class="lead">O sistema de tiro é focado em precisão e
+                            estratégia. O jogador pode utilizar diferentes armas de fogo, mirando manualmente e
+                            aproveitando a cobertura para enfrentar inimigos. A munição é limitada, incentivando o
+                            jogador a escolher cuidadosamente quando atirar.
+                        </p>
+                        <div class="d-grid">
+                            <button class="btn btn-secondary btn-lg" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseDicas1">
+                                Mostrar Dicas
+                            </button>
+                        </div>
+                        <div class="collapse" id="collapseDicas1">
+                            <div class="my-2 alert alert-info">
+                                Mire com calma: tiros precisos ajudam a economizar munição.
+                            </div>
+                            <div class="my-2 alert alert-info">
+                                Use a cobertura: proteja-se antes de mirar para reduzir os riscos durante o combate.
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="collapse" id="collapseStealth">
+                    <div class="infos my-4 py-4 px-5 rounded-4">
+                        <h2 class="display-6 pressgothic text-center">STEALTH</h2>
+                        <div class="col-lg-6 mx-auto mb-4">
+                            <img class="shadow-lg rounded-4" src="img/guia/stealth.webp" width="100%">
+                        </div>
+                        <p class="lead">O jogador pode evitar ou eliminar inimigos silenciosamente. É possível se
+                            esconder
+                            atrás de objetos, agachar-se, observar os inimigos e aproveitar o ambiente para passar
+                            despercebido.
+                        </p>
+                        <div class="d-grid">
+                            <button class="btn btn-secondary btn-lg" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseDicas2">
+                                Mostrar Dicas
+                            </button>
+                        </div>
+                        <div class="collapse" id="collapseDicas2">
+                            <div class="my-2 alert alert-info">
+                                Observe antes de agir: identifique a posição dos inimigos antes de avançar.
+                            </div>
+                            <div class="my-2 alert alert-info">
+                                Movimente-se com cuidado: fique agachado e evite fazer barulho para não ser detectado.
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="collapse" id="collapseOuvir">
+                    <div class="infos my-4 py-4 px-5 rounded-4">
+                        <h2 class="display-6 pressgothic text-center">OUVIR</h2>
+                        <div class="col-lg-6 mx-auto mb-4">
+                            <img class="shadow-lg rounded-4" src="img/guia/ouvir.webp" width="100%">
+                        </div>
+                        <p class="lead">
+                            Permite identificar inimigos próximos mesmo quando eles estão fora do campo de visão. Ao
+                            ativá-la, o jogador consegue perceber a localização dos inimigos através de obstáculos,
+                            facilitando a exploração e o planejamento dos movimentos.
+                        </p>
+                        <div class="d-grid">
+                            <button class="btn btn-secondary btn-lg" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseDicas3">
+                                Mostrar Dicas
+                            </button>
+                        </div>
+                        <div class="collapse" id="collapseDicas3">
+                            <div class="my-2 alert alert-info">
+                                Use antes de avançar: descubra onde estão os inimigos para evitar surpresas.
+                            </div>
+                            <div class="my-2 alert alert-info">
+                                Observe o ambiente: combine a mecânica de Ouvir com o Stealth para escolher o melhor
+                                caminho.
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="collapse" id="collapseSuplementos">
+                    <div class="infos my-4 py-4 px-5 rounded-4">
+                        <h2 class="display-6 pressgothic text-center">SUPLEMENTOS</h2>
+                        <div class="col-lg-6 mx-auto mb-4">
+                            <img class="shadow-lg rounded-4" src="img/guia/suplementos.webp" width="100%">
+                        </div>
+                        <p class="lead">Suplementos são recursos encontrados durante a exploração e usados para melhorar
+                            diferentes habilidades do personagem. Eles permitem aprimorar atributos como a quantidade de
+                            vida, velocidade de cura e eficiência de determinadas ações.
+                        </p>
+                        <div class="d-grid">
+                            <button class="btn btn-secondary btn-lg" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseDicas4">
+                                Mostrar Dicas
+                            </button>
+                        </div>
+                        <div class="collapse" id="collapseDicas4">
+                            <div class="my-2 alert alert-info">
+                                Explore bem: procure suplementos em diferentes áreas do cenário.
+                            </div>
+                            <div class="my-2 alert alert-info">
+                                Priorize melhorias: escolha habilidades que combinem com seu estilo de jogo.
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="collapse" id="collapseUpgrades">
+                    <div class="infos my-4 py-4 px-5 rounded-4">
+                        <h2 class="display-6 pressgothic text-center">UPGRADES DE ARMA</h2>
+                        <div class="col-lg-6 mx-auto mb-4">
+                            <img class="shadow-lg rounded-4" src="img/guia/upgrades.webp" width="100%">
+                        </div>
+                        <p class="lead">Você pode melhorar as armas usando peças encontradas durante a exploração. As
+                            melhorias
+                            podem aumentar características como capacidade do carregador, estabilidade, alcance e
+                            velocidade de recarga, tornando as armas mais eficientes nos combates.
+                        </p>
+                        <div class="d-grid">
+                            <button class="btn btn-secondary btn-lg" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseDicas5">
+                                Mostrar Dicas
+                            </button>
+                        </div>
+                        <div class="collapse" id="collapseDicas5">
+                            <div class="my-2 alert alert-info">
+                                Economize peças: guarde recursos para melhorias que realmente serão úteis.
+                            </div>
+                            <div class="my-2 alert alert-info">
+                                Priorize suas armas: melhore primeiro as armas que você mais utiliza.
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="collapse" id="collapseCriacao">
+                    <div class="infos my-4 py-4 px-5 rounded-4">
+                        <h2 class="display-6 pressgothic text-center">CRIAÇÃO</h2>
+                        <div class="col-lg-6 mx-auto mb-4">
+                            <img class="shadow-lg rounded-4" src="img/guia/criacao.webp" width="100%">
+                        </div>
+                        <p class="lead">Você pode criar itens utilizando materiais encontrados durante a exploração. O
+                            jogador pode fabricar recursos como kits médicos, coquetéis Molotov e outros itens úteis
+                            para combate e sobrevivência.
+                        </p>
+                        <div class="d-grid">
+                            <button class="btn btn-secondary btn-lg" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseDicas6">
+                                Mostrar Dicas
+                            </button>
+                        </div>
+                        <div class="collapse" id="collapseDicas6">
+                            <div class="my-2 alert alert-info">
+                                Colete materiais: explore bem os cenários para encontrar recursos.
+                            </div>
+                            <div class="my-2 alert alert-info">
+                                Use com estratégia: evite gastar materiais desnecessariamente e guarde itens para
+                                momentos importantes.
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+    </main>
+
+    <footer class="py-5">
+        <p class="text-center p-2">
+            Projeto de PW - Professores Luiz e Anderson
+        </p>
+        <p class="text-center p-2">Por Kaique Andrade e Samuel Camargo</p>
+    </footer>
+
+</body>
+
+<!-- Bootstrap JavaScript-->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/extra.js"></script>
+
+<!-- JavaScript do Progressbar-->
+<script src="js/gameplay.js"></script>
+
+</html>

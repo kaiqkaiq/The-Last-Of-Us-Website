@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infecção Simples | The Last Of Us</title>
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- CSS Geral-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-sm" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand pressgothic" href="index.html" style="font-size: xx-large;">THE LAST OF US
+                    WEBSITE</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacao"
+                    aria-controls="navegacao" aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navegacao">
+                    <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#"
+                                data-bs-toggle="dropdown" aria-expanded="false">Personagens</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="index.html#personagens">Personagens</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="joel.html">Joel</a></li>
+                                <li><a class="dropdown-item" href="ellie.html">Ellie</a></li>
+                                <li><a class="dropdown-item" href="abby.html">Abby</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"> <a class="nav-link" href="jogos.html">Jogos</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="gameplay.html">Gameplay</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="processocriativo.html">Processo Criativo</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container my-4">
+            <section>
+                <h1 class="display-4 pressgothic text-center">INFECÇÃO SIMPLES</h1>
+
+                <nav>
+                    <ol class="breadcrumb p-2 rounded-2" style="background-color: rgba(0, 0, 0, 0.572);">
+                        <li class="breadcrumb-item"><a href="index.html#personagens">Personagens</a></li>
+                        <li class="breadcrumb-item"><a href="inimigos.html">Inimigos</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Infecção Simples</li>
+                    </ol>
+                </nav>
+
+                <div class="row row-cols-1 row-cols-md-3 my-2 text-center g-3"> <!--CARDS-->
+
+                    <div class="col">
+                        <div class="card" style="background-color: rgba(0, 0, 0, 0.572);">
+                            <img src="img/infectados/corredor.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <button class="botaoinfos btn btn-secondary btn-lg pressgothic" type="button"
+                                    data-target="corredores">
+                                    CORREDORES
+                                </button>
+                                <div id="corredores" class="collapse mt-3">
+                                    <p>
+                                        Primeira fase da infecção. Mantêm boa parte da aparência e movimentos
+                                        humanos, mas agem de forma brutal e impulsiva. Atacam em grupo e com muita
+                                        velocidade.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card" style="background-color: rgba(0, 0, 0, 0.572);">
+                            <img src="img/infectados/perseguidor.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <button class="botaoinfos btn btn-secondary btn-lg pressgothic" type="button"
+                                    data-target="perseguidores">
+                                    PERSEGUIDORES
+                                </button>
+                                <div id="perseguidores" class="collapse mt-3">
+                                    <p>
+                                        Transição entre os corredores e os estaladores. Apresentam deformações
+                                        causadas pelo fungo, mas ainda conseguem enxergar. Conhecidos por se
+                                        esconderem e atacar de surpresa.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card" style="background-color: rgba(0, 0, 0, 0.572);">
+                            <img src="img/infectados/estalador.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <button class="botaoinfos btn btn-secondary btn-lg pressgothic" type="button"
+                                    data-target="estaladores">
+                                    ESTALADORES
+                                </button>
+                                <div id="estaladores" class="collapse mt-3">
+                                    <p>
+                                        É o tipo mais icônico de infectado, símbolo visual da franquia.
+                                        São cegos, com a cabeça tomada por placas de fungo endurecido. Se
+                                        orientam pelo som, usando estalos assustadores como ecolocalização.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <footer class="py-5">
+        <p class="text-center p-2">
+            Projeto de PW - Professores Luiz e Anderson
+        </p>
+        <p class="text-center p-2">Por Kaique Andrade e Samuel Camargo</p>
+    </footer>
+
+</body>
+
+<!-- Bootstrap JavaScript-->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/extra.js"></script>
+
+<!--JavaScript do spinning-->
+<script src="js/inimigos.js"></script>
+
+
+</html>

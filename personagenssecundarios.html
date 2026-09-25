@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personagens | The Last Of Us</title>
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- CSS Geral-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/personagenssecun.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-sm" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand pressgothic" href="index.html" style="font-size: xx-large;">THE LAST OF US
+                    WEBSITE</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacao"
+                    aria-controls="navegacao" aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navegacao">
+                    <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#"
+                                data-bs-toggle="dropdown" aria-expanded="false">Personagens</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="index.html#personagens">Personagens</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="joel.html">Joel</a></li>
+                                <li><a class="dropdown-item" href="ellie.html">Ellie</a></li>
+                                <li><a class="dropdown-item" href="abby.html">Abby</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"> <a class="nav-link" href="jogos.html">Jogos</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="gameplay.html">Gameplay</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="processocriativo.html">Processo Criativo</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class=" container px-4 py-5 mb-2 text-center">
+            <section>
+                <h1 class="display-4 pressgothic">PERSONAGENS SECUNDÁRIOS</h1>
+
+                <div class="row row-cols-2 row-cols-md-4 g-4">
+
+                    <div class="col"> <!--Card Tess-->
+                        <div class="card h-100">
+                            <img src="img/personagens/tess.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title white">TESS <span class="badge text-bg-primary">TLOU
+                                        1</span>
+                                    </h5>
+                                    <p class="card-text"></p>
+                                    <button type="button" class="btn btn-secondary" id="tessBtn">Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col"> <!--Card Tommy-->
+                        <div class="card h-100">
+                            <img src="img/personagens/tommy.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title white">TOMMY <span class="badge text-bg-primary">TLOU
+                                        1</span> <span class="badge text-bg-primary">TLOU
+                                        2</span>
+                                    </h5>
+                                    <p class="card-text"></p>
+                                    <button type="button" class="btn btn-secondary" id="tommyBtn">Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col"> <!--Card Marlene-->
+                        <div class="card h-100">
+                            <img src="img/personagens/marlene.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title white">MARLENE <span class="badge text-bg-primary">TLOU
+                                        1</span>
+                                    </h5>
+                                    <p class="card-text"></p>
+                                    <button type="button" class="btn btn-secondary" id="marleneBtn">Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col"> <!--Card Dina-->
+                        <div class="card h-100">
+                            <img src="img/personagens/dina.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title white">DINA <span class="badge text-bg-primary">TLOU
+                                        2</span>
+                                    </h5>
+                                    <p class="card-text"></p>
+                                    <button type="button" class="btn btn-secondary" id="dinaBtn">Detalhes</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+
+
+        <!--Toast Tess-->
+        <div class="toast-container position-fixed top-50 start-50 translate-middle p-3">
+            <div id="tessToast" class="toast" data-bs-autohide="false">
+                <div class="toast-header">
+                    <h3 class="me-auto pressgothic white">TESS</h3>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast"
+                        aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    <p class="lead">Embora muito capaz e, talvez, mais cruel do que o parceiro de contrabando Joel, Tess
+                        superou as dificuldades do mundo brutal para se tornar uma estrategista e negociadora sagaz. Sua
+                        liderança e capacidade física a tornaram uma figura respeitada na zona de quarentena de Boston.
+                        Embora ela tenha adotado a mentalidade implacável de uma sobrevivente endurecida, ela continua
+                        leal, corajosa, e acaba se mostrando altruísta no apoio concedido a Joel e Ellie.</p>
+                </div>
+            </div>
+        </div>
+
+        <!--Toast Tommy-->
+        <div class="toast-container position-fixed top-50 start-50 translate-middle p-3">
+            <div id="tommyToast" class="toast" data-bs-autohide="false">
+                <div class="toast-header">
+                    <h3 class="me-auto pressgothic white">TOMMY</h3>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast"
+                        aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    <p class="lead">Embora compartilhe a rigidez e a determinação do irmão Joel, a personalidade
+                        impulsiva, compassiva e esperançosa de Tommy o torna diferente. Depois de um período lutando com
+                        os Vaga-lumes, ele conhece a futura esposa, Maria, e a comunidade dela em Jackson, Wyoming. Com
+                        essa nova direção em seus valores, ele procura criar uma vida significativa e rica, apesar das
+                        circunstâncias difíceis.</p>
+                </div>
+            </div>
+        </div>
+
+        <!--Toast Marlene-->
+        <div class="toast-container position-fixed top-50 start-50 translate-middle p-3">
+            <div id="marleneToast" class="toast" data-bs-autohide="false">
+                <div class="toast-header">
+                    <h3 class="me-auto pressgothic white">MARLENE</h3>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast"
+                        aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    <p class="lead">Membro ardente dos Vaga-lumes, Marlene está à frente da luta para derrubar o jugo
+                        militar opressivo nas zonas de quarentena. Apesar da experiência apoiando a rebelião, ela
+                        continua sendo gentil e compassiva. Sua carreira na medicina garantiu a crença no valor da
+                        salvação da humanidade, que ela buscará a qualquer custo.</p>
+                </div>
+            </div>
+        </div>
+
+        <!--Toast Dina-->
+        <div class="toast-container position-fixed top-50 start-50 translate-middle p-3">
+            <div id="dinaToast" class="toast" data-bs-autohide="false">
+                <div class="toast-header">
+                    <h3 class="me-auto pressgothic white">DINA</h3>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast"
+                        aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    <p class="lead">Dina é a melhor amiga e confidente otimista e determinada de Ellie. Como Ellie, ela
+                        também ficou órfã quando muito jovem, e se viu forçada a aprender a sobreviver sozinha e se
+                        tornar autossuficiente. Os valores morais fortes e a natureza extrovertida de Dina estimulam o
+                        que há de melhor em Ellie.</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="py-5">
+        <p class="text-center p-2">
+            Projeto de PW - Professores Luiz e Anderson
+        </p>
+        <p class="text-center p-2">Por Kaique Andrade e Samuel Camargo</p>
+    </footer>
+
+</body>
+
+<!-- Bootstrap JavaScript-->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/extra.js"></script>
+<script>
+
+    const tessTrigger = document.getElementById('tessBtn')
+    const tessToastLive = document.getElementById('tessToast')
+
+    if (tessTrigger) {
+        const toastBootstrap = bootstrap.Toast.getOrCreateInstance(tessToastLive)
+        tessTrigger.addEventListener('click', () => {
+            toastBootstrap.show()
+        })
+    }
+
+    const tommyTrigger = document.getElementById('tommyBtn')
+    const tommyToastLive = document.getElementById('tommyToast')
+
+    if (tommyTrigger) {
+        const toastBootstrap = bootstrap.Toast.getOrCreateInstance(tommyToastLive)
+        tommyTrigger.addEventListener('click', () => {
+            toastBootstrap.show()
+        })
+    }
+
+    const marleneTrigger = document.getElementById('marleneBtn')
+    const marleneToastLive = document.getElementById('marleneToast')
+
+    if (marleneTrigger) {
+        const toastBootstrap = bootstrap.Toast.getOrCreateInstance(marleneToastLive)
+        marleneTrigger.addEventListener('click', () => {
+            toastBootstrap.show()
+        })
+    }
+
+    const dinaTrigger = document.getElementById('dinaBtn')
+    const dinaToastLive = document.getElementById('dinaToast')
+
+    if (dinaTrigger) {
+        const toastBootstrap = bootstrap.Toast.getOrCreateInstance(dinaToastLive)
+        dinaTrigger.addEventListener('click', () => {
+            toastBootstrap.show()
+        })
+    }
+
+</script>
+
+</html>

@@ -1,0 +1,43 @@
+:root {
+    --primary-color: #395e88;
+    --primary-color-highlight: #ffffff;
+    --bs-body-bg: #050d16;
+}
+
+@font-face {
+    font-family: PressGothic;
+    src: url("../fonts/pressgothic.otf");
+}
+
+@font-face {
+    font-family: Scoutie;
+    src: url("../fonts/ScoutieSans-VariableFont_wght.ttf");
+}
+
+.pressgothic {
+    font-family: PressGothic;
+}
+
+.white {
+    color: white;
+}
+
+* {
+    color: white;
+    font-family: Scoutie;
+}
+
+main {
+    background-color: #050d16;
+}
+
+
+header {
+    color: white;
+    background-color: black;
+}
+
+
+footer {
+    background-color: #030508;
+}
